@@ -84,7 +84,7 @@
     }
 
     /* Move the carousel-item::before styles inside the media query */
-    .carousel-item::before {
+    /*.carousel-item::before {
         background-color: rgba(0, 0, 0, 0.6);
         content: "";
         position: absolute;
@@ -92,12 +92,12 @@
         right: 0;
         bottom: 0;
         left: 0;
-    }
+    }*/
 
 
     .container-fluid.pt-5.pb-5 {
         padding-top: 10vh; /* Ubah padding sesuai dengan ukuran layar */
-        padding-bottom: 10vh; /* Ubah padding sesuai dengan ukuran layar */
+        padding-bottom: 10vh; /*Ubah padding sesuai dengan ukuran layar */
     }
 }
 
@@ -121,8 +121,7 @@
     }
 
     .carousel-item img {
-        max-width: 100%;
-        max-height: 100%;
+        background-size: cover;
     }
 
     .angga img {
@@ -197,4 +196,19 @@
     .kontak textarea {
         width: 100%;
     }
+}
+.banner {
+    background: url("op3.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 85%;
+    padding-bottom: 85%;
+    color: #fff;
+}
+
+.banner1 {
+    background: url("op1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 91%;
+    padding-bottom: 91%;
+    color: #fff;
 }
