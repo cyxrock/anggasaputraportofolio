@@ -18,7 +18,7 @@
 }
 
 .kontak {
-    background: url("https://wallpapercave.com/wp/wp2747935.jpg") no-repeat center center;
+    background: url("op4.jpg") no-repeat center center;
     background-size: cover;
     padding-bottom: 20%;
     padding-top: 20%;
@@ -39,7 +39,7 @@
     transition: all ease-in-out .5s;
 }
 
-.bg-transparent {
+.bg-light {
     transition: all ease-in-out .5s;
 }
 
@@ -58,10 +58,10 @@
     font-weight: 500;
     position: relative;
 }
-
+.navbar-brand,
 .nav-link:hover,
 .nav-link.active {
-    color: #ffffff;
+    color: #343a40;
 }
 
 @media (min-width: 200px) {
@@ -73,7 +73,7 @@
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #fff;
+        background-color: #ffffff;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -229,4 +229,9 @@
     padding-bottom: 81%;
     color: #fff;
 }
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1rem;
 }
