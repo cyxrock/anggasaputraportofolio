@@ -197,18 +197,36 @@
         width: 100%;
     }
 }
+@media (min-width: 767px) {
 .banner {
     background: url("op3.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 85%;
-    padding-bottom: 85%;
+    padding-top: 19%;
+    padding-bottom: 19%;
     color: #fff;
 }
-
+}
 .banner1 {
     background: url("op1.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 91%;
-    padding-bottom: 91%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+.banner {
+    background: url("op3.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 80%;
+    padding-bottom: 80%;
+    color: #fff;
+}
+.banner1 {
+    background: url("op1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 81%;
+    padding-bottom: 81%;
+    color: #fff;
+}
 }
